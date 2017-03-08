@@ -1,0 +1,28 @@
+{{define "new"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+   a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   }
+  </style>
+
+</head>
+<body>
+
+<form action="ende" method="get">
+
+<h1>Проверьте правильность введенных данных</h1>
+
+<p>{{.}}</p>
+<input type="submit" name="Submit" value="Потвердить">
+
+    </form>
+
+</body>
+</html>
+{{end}}
